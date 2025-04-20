@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1 id="typed-name"></h1>
+    <p class="role">Web Developer | Designer</p>
+    <button id="toggle-theme">Toggle Theme</button>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a passionate web developer with a love for creating clean and functional user interfaces. I enjoy learning new technologies and solving real-world problems.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Node.js</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div id="project-container"></div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+      <p id="form-msg"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p id="datetime"></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
