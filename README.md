@@ -1,2 +1,2 @@
-# ITA-Portfolio
+# Portfolio
 This is my first Git repository
